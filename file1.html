@@ -1,0 +1,21 @@
+<!DOCTYPE html> 
+ <html>
+    <head>
+         <title>"welcome to mt page </title>
+         <meta charset="utf-8">   
+    </head>
+    <body>
+        <p>nhập tên của bạn :</p>
+        <input id ="demo" type="text">
+         <button type="button" onclick="myfunction()" >Click</button>
+        <p>tên của bạn là :</p>
+        <p id ="demo1"></p> 
+        <script>
+            function myfunction() {
+            var x ; 
+            x= document.getElementById("demo").value ;
+            document.getElementById("demo1").innerHTML=x ;
+            }
+        </script>
+    </body>
+ </html>
