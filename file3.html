@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+ <html> 
+      <head>
+           <meta charset="utf-8">
+            <title>hello world</title>
+      </head>
+      <body>
+          <p>cho trong 3 giay nhe </p>
+           <h1 id ="demo" >here </h1>
+           <script>
+                var myPromise =new Promise(function(Resolve,Reject){
+                    setTimeout(function(){Resolve("hello world")},3000)
+                }); 
+                 myPromise.then(function(value){
+                     document.getElementById("demo").innerHTML =value ; 
+                 }); 
+           </script>
+      </body>
+ </html>
